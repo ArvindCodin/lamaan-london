@@ -1,1 +1,7 @@
 .shopify
+node_modules/
+build/
+.shopify/
+.react-router/
+.env
+*.log
