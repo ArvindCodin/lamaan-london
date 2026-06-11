@@ -1,0 +1,1089 @@
+{
+  "inputs": {
+    "react/jsx-runtime": {
+      "bytes": 0,
+      "format": "esm",
+      "imports": []
+    },
+    "react-router": {
+      "bytes": 0,
+      "format": "esm",
+      "imports": []
+    },
+    "isbot": {
+      "bytes": 0,
+      "format": "esm",
+      "imports": []
+    },
+    "react-dom/server": {
+      "bytes": 0,
+      "format": "esm",
+      "imports": []
+    },
+    "react": {
+      "bytes": 0,
+      "format": "esm",
+      "imports": []
+    },
+    "clsx": {
+      "bytes": 0,
+      "format": "esm",
+      "imports": []
+    },
+    "tailwind-merge": {
+      "bytes": 0,
+      "format": "esm",
+      "imports": []
+    },
+    "@radix-ui/react-toast": {
+      "bytes": 0,
+      "format": "esm",
+      "imports": []
+    },
+    "class-variance-authority": {
+      "bytes": 0,
+      "format": "esm",
+      "imports": []
+    },
+    "lucide-react": {
+      "bytes": 0,
+      "format": "esm",
+      "imports": []
+    },
+    "framer-motion": {
+      "bytes": 0,
+      "format": "esm",
+      "imports": []
+    },
+    "app/styles/app.css?url": {
+      "bytes": 240,
+      "format": "esm",
+      "imports": []
+    },
+    "\u0000virtual:react-router/server-manifest": {
+      "bytes": 10401,
+      "format": "esm",
+      "imports": []
+    },
+    "\u0000virtual:react-router/server-build": {
+      "bytes": 3876,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "app/entry.server.tsx",
+          "kind": "import-statement",
+          "original": "/app/entry.server.tsx"
+        },
+        {
+          "path": "app/root.tsx",
+          "kind": "import-statement",
+          "original": "/app/root.tsx"
+        },
+        {
+          "path": "app/routes/_index.tsx",
+          "kind": "import-statement",
+          "original": "/app/routes/_index.tsx"
+        },
+        {
+          "path": "app/routes/cart.tsx",
+          "kind": "import-statement",
+          "original": "/app/routes/cart.tsx"
+        },
+        {
+          "path": "app/routes/collections.tsx",
+          "kind": "import-statement",
+          "original": "/app/routes/collections.tsx"
+        },
+        {
+          "path": "app/routes/products.$handle.tsx",
+          "kind": "import-statement",
+          "original": "/app/routes/products.$handle.tsx"
+        },
+        {
+          "path": "app/routes/product-video.tsx",
+          "kind": "import-statement",
+          "original": "/app/routes/product-video.tsx"
+        },
+        {
+          "path": "app/routes/privacy-policy.tsx",
+          "kind": "import-statement",
+          "original": "/app/routes/privacy-policy.tsx"
+        },
+        {
+          "path": "app/routes/returns-shipping.tsx",
+          "kind": "import-statement",
+          "original": "/app/routes/returns-shipping.tsx"
+        },
+        {
+          "path": "app/routes/scent-quiz.tsx",
+          "kind": "import-statement",
+          "original": "/app/routes/scent-quiz.tsx"
+        },
+        {
+          "path": "app/routes/terms-of-service.tsx",
+          "kind": "import-statement",
+          "original": "/app/routes/terms-of-service.tsx"
+        },
+        {
+          "path": "app/routes/$.tsx",
+          "kind": "import-statement",
+          "original": "/app/routes/$.tsx"
+        },
+        {
+          "path": "\u0000virtual:react-router/server-manifest",
+          "kind": "import-statement",
+          "original": "\u0000virtual:react-router/server-manifest"
+        }
+      ]
+    },
+    "app/lib/shopify.server.ts": {
+      "bytes": 7633,
+      "format": "esm",
+      "imports": []
+    },
+    "app/lib/products.ts": {
+      "bytes": 5417,
+      "format": "esm",
+      "imports": []
+    },
+    "app/hooks/use-toast.ts": {
+      "bytes": 3279,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "original": "react"
+        }
+      ]
+    },
+    "app/lib/session.server.ts": {
+      "bytes": 1608,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react-router",
+          "kind": "import-statement",
+          "original": "react-router"
+        }
+      ]
+    },
+    "app/lib/utils.ts": {
+      "bytes": 169,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "clsx",
+          "kind": "import-statement",
+          "original": "clsx"
+        },
+        {
+          "path": "tailwind-merge",
+          "kind": "import-statement",
+          "original": "tailwind-merge"
+        }
+      ]
+    },
+    "app/components/Footer.tsx": {
+      "bytes": 3298,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "react-router",
+          "kind": "import-statement",
+          "original": "react-router"
+        }
+      ]
+    },
+    "app/context/CartContext.tsx": {
+      "bytes": 2313,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "app/hooks/use-toast.ts",
+          "kind": "import-statement",
+          "original": "~/hooks/use-toast"
+        }
+      ]
+    },
+    "app/components/Navbar.tsx": {
+      "bytes": 4306,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "react-router",
+          "kind": "import-statement",
+          "original": "react-router"
+        },
+        {
+          "path": "lucide-react",
+          "kind": "import-statement",
+          "original": "lucide-react"
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "app/context/CartContext.tsx",
+          "kind": "import-statement",
+          "original": "~/context/CartContext"
+        }
+      ]
+    },
+    "app/root.tsx": {
+      "bytes": 2852,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react-router",
+          "kind": "import-statement",
+          "original": "react-router"
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "app/context/CartContext.tsx",
+          "kind": "import-statement",
+          "original": "~/context/CartContext"
+        },
+        {
+          "path": "app/components/ui/toaster.tsx",
+          "kind": "import-statement",
+          "original": "~/components/ui/toaster"
+        },
+        {
+          "path": "app/components/AnnouncementBar.tsx",
+          "kind": "import-statement",
+          "original": "~/components/AnnouncementBar"
+        },
+        {
+          "path": "app/components/Navbar.tsx",
+          "kind": "import-statement",
+          "original": "~/components/Navbar"
+        },
+        {
+          "path": "app/components/Footer.tsx",
+          "kind": "import-statement",
+          "original": "~/components/Footer"
+        },
+        {
+          "path": "app/components/BackToTop.tsx",
+          "kind": "import-statement",
+          "original": "~/components/BackToTop"
+        },
+        {
+          "path": "app/styles/app.css?url",
+          "kind": "import-statement",
+          "original": "~/styles/app.css?url"
+        }
+      ]
+    },
+    "app/components/BackToTop.tsx": {
+      "bytes": 1062,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "framer-motion",
+          "kind": "import-statement",
+          "original": "framer-motion"
+        },
+        {
+          "path": "lucide-react",
+          "kind": "import-statement",
+          "original": "lucide-react"
+        }
+      ]
+    },
+    "app/components/AnnouncementBar.tsx": {
+      "bytes": 2308,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "framer-motion",
+          "kind": "import-statement",
+          "original": "framer-motion"
+        },
+        {
+          "path": "lucide-react",
+          "kind": "import-statement",
+          "original": "lucide-react"
+        }
+      ]
+    },
+    "app/routes/collections.tsx": {
+      "bytes": 4151,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react-router",
+          "kind": "import-statement",
+          "original": "react-router"
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "framer-motion",
+          "kind": "import-statement",
+          "original": "framer-motion"
+        },
+        {
+          "path": "app/components/home/MarqueeBanner.tsx",
+          "kind": "import-statement",
+          "original": "~/components/home/MarqueeBanner"
+        },
+        {
+          "path": "app/lib/shopify.server.ts",
+          "kind": "import-statement",
+          "original": "~/lib/shopify.server"
+        },
+        {
+          "path": "app/lib/products.ts",
+          "kind": "import-statement",
+          "original": "~/lib/products"
+        }
+      ]
+    },
+    "app/routes/products.$handle.tsx": {
+      "bytes": 14982,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react-router",
+          "kind": "import-statement",
+          "original": "react-router"
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "framer-motion",
+          "kind": "import-statement",
+          "original": "framer-motion"
+        },
+        {
+          "path": "lucide-react",
+          "kind": "import-statement",
+          "original": "lucide-react"
+        },
+        {
+          "path": "app/lib/shopify.server.ts",
+          "kind": "import-statement",
+          "original": "~/lib/shopify.server"
+        },
+        {
+          "path": "app/lib/products.ts",
+          "kind": "import-statement",
+          "original": "~/lib/products"
+        },
+        {
+          "path": "app/context/CartContext.tsx",
+          "kind": "import-statement",
+          "original": "~/context/CartContext"
+        }
+      ]
+    },
+    "app/routes/returns-shipping.tsx": {
+      "bytes": 2191,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react-router",
+          "kind": "import-statement",
+          "original": "react-router"
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "framer-motion",
+          "kind": "import-statement",
+          "original": "framer-motion"
+        }
+      ]
+    },
+    "app/routes/product-video.tsx": {
+      "bytes": 21624,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react-router",
+          "kind": "import-statement",
+          "original": "react-router"
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "framer-motion",
+          "kind": "import-statement",
+          "original": "framer-motion"
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "original": "react"
+        }
+      ]
+    },
+    "app/routes/scent-quiz.tsx": {
+      "bytes": 10611,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react-router",
+          "kind": "import-statement",
+          "original": "react-router"
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "framer-motion",
+          "kind": "import-statement",
+          "original": "framer-motion"
+        },
+        {
+          "path": "lucide-react",
+          "kind": "import-statement",
+          "original": "lucide-react"
+        },
+        {
+          "path": "app/lib/products.ts",
+          "kind": "import-statement",
+          "original": "~/lib/products"
+        }
+      ]
+    },
+    "app/routes/cart.tsx": {
+      "bytes": 11435,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react-router",
+          "kind": "import-statement",
+          "original": "react-router"
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "framer-motion",
+          "kind": "import-statement",
+          "original": "framer-motion"
+        },
+        {
+          "path": "lucide-react",
+          "kind": "import-statement",
+          "original": "lucide-react"
+        },
+        {
+          "path": "app/context/CartContext.tsx",
+          "kind": "import-statement",
+          "original": "~/context/CartContext"
+        },
+        {
+          "path": "app/lib/shopify.server.ts",
+          "kind": "import-statement",
+          "original": "~/lib/shopify.server"
+        },
+        {
+          "path": "app/lib/session.server.ts",
+          "kind": "import-statement",
+          "original": "~/lib/session.server"
+        }
+      ]
+    },
+    "app/routes/_index.tsx": {
+      "bytes": 5066,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react-router",
+          "kind": "import-statement",
+          "original": "react-router"
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "framer-motion",
+          "kind": "import-statement",
+          "original": "framer-motion"
+        },
+        {
+          "path": "app/components/home/Hero.tsx",
+          "kind": "import-statement",
+          "original": "~/components/home/Hero"
+        },
+        {
+          "path": "app/components/home/MarqueeBanner.tsx",
+          "kind": "import-statement",
+          "original": "~/components/home/MarqueeBanner"
+        },
+        {
+          "path": "app/components/home/StorySection.tsx",
+          "kind": "import-statement",
+          "original": "~/components/home/StorySection"
+        },
+        {
+          "path": "app/components/home/PriceSection.tsx",
+          "kind": "import-statement",
+          "original": "~/components/home/PriceSection"
+        },
+        {
+          "path": "app/components/home/FeaturesSection.tsx",
+          "kind": "import-statement",
+          "original": "~/components/home/FeaturesSection"
+        },
+        {
+          "path": "app/components/home/PhilosophySection.tsx",
+          "kind": "import-statement",
+          "original": "~/components/home/PhilosophySection"
+        },
+        {
+          "path": "app/components/home/SubscribeSection.tsx",
+          "kind": "import-statement",
+          "original": "~/components/home/SubscribeSection"
+        },
+        {
+          "path": "app/lib/shopify.server.ts",
+          "kind": "import-statement",
+          "original": "~/lib/shopify.server"
+        },
+        {
+          "path": "app/lib/products.ts",
+          "kind": "import-statement",
+          "original": "~/lib/products"
+        }
+      ]
+    },
+    "app/components/home/MarqueeBanner.tsx": {
+      "bytes": 1035,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "framer-motion",
+          "kind": "import-statement",
+          "original": "framer-motion"
+        }
+      ]
+    },
+    "app/components/home/FeaturesSection.tsx": {
+      "bytes": 2732,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "framer-motion",
+          "kind": "import-statement",
+          "original": "framer-motion"
+        }
+      ]
+    },
+    "app/components/home/PhilosophySection.tsx": {
+      "bytes": 2976,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "framer-motion",
+          "kind": "import-statement",
+          "original": "framer-motion"
+        }
+      ]
+    },
+    "app/routes/privacy-policy.tsx": {
+      "bytes": 2766,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react-router",
+          "kind": "import-statement",
+          "original": "react-router"
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "framer-motion",
+          "kind": "import-statement",
+          "original": "framer-motion"
+        }
+      ]
+    },
+    "app/components/home/Hero.tsx": {
+      "bytes": 3145,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "framer-motion",
+          "kind": "import-statement",
+          "original": "framer-motion"
+        },
+        {
+          "path": "react-router",
+          "kind": "import-statement",
+          "original": "react-router"
+        }
+      ]
+    },
+    "app/routes/terms-of-service.tsx": {
+      "bytes": 2976,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react-router",
+          "kind": "import-statement",
+          "original": "react-router"
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "framer-motion",
+          "kind": "import-statement",
+          "original": "framer-motion"
+        }
+      ]
+    },
+    "app/components/home/StorySection.tsx": {
+      "bytes": 5624,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "framer-motion",
+          "kind": "import-statement",
+          "original": "framer-motion"
+        },
+        {
+          "path": "react-router",
+          "kind": "import-statement",
+          "original": "react-router"
+        }
+      ]
+    },
+    "app/components/home/PriceSection.tsx": {
+      "bytes": 2142,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "framer-motion",
+          "kind": "import-statement",
+          "original": "framer-motion"
+        },
+        {
+          "path": "react-router",
+          "kind": "import-statement",
+          "original": "react-router"
+        }
+      ]
+    },
+    "app/components/ui/toaster.tsx": {
+      "bytes": 742,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "app/hooks/use-toast.ts",
+          "kind": "import-statement",
+          "original": "~/hooks/use-toast"
+        },
+        {
+          "path": "app/components/ui/toast.tsx",
+          "kind": "import-statement",
+          "original": "~/components/ui/toast"
+        }
+      ]
+    },
+    "app/routes/$.tsx": {
+      "bytes": 1155,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react-router",
+          "kind": "import-statement",
+          "original": "react-router"
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "framer-motion",
+          "kind": "import-statement",
+          "original": "framer-motion"
+        }
+      ]
+    },
+    "app/entry.server.tsx": {
+      "bytes": 3658,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "react-router",
+          "kind": "import-statement",
+          "original": "react-router"
+        },
+        {
+          "path": "isbot",
+          "kind": "import-statement",
+          "original": "isbot"
+        },
+        {
+          "path": "react-dom/server",
+          "kind": "import-statement",
+          "original": "react-dom/server"
+        }
+      ]
+    },
+    "app/components/home/SubscribeSection.tsx": {
+      "bytes": 3831,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "framer-motion",
+          "kind": "import-statement",
+          "original": "framer-motion"
+        },
+        {
+          "path": "lucide-react",
+          "kind": "import-statement",
+          "original": "lucide-react"
+        },
+        {
+          "path": "react-router",
+          "kind": "import-statement",
+          "original": "react-router"
+        }
+      ]
+    },
+    "app/components/ui/toast.tsx": {
+      "bytes": 4134,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "@radix-ui/react-toast",
+          "kind": "import-statement",
+          "original": "@radix-ui/react-toast"
+        },
+        {
+          "path": "class-variance-authority",
+          "kind": "import-statement",
+          "original": "class-variance-authority"
+        },
+        {
+          "path": "lucide-react",
+          "kind": "import-statement",
+          "original": "lucide-react"
+        },
+        {
+          "path": "app/lib/utils.ts",
+          "kind": "import-statement",
+          "original": "~/lib/utils"
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "build/server/index.js": {
+      "imports": [
+        "react/jsx-runtime",
+        "react-router",
+        "isbot",
+        "react-dom/server",
+        "react",
+        "@radix-ui/react-toast",
+        "class-variance-authority",
+        "lucide-react",
+        "clsx",
+        "tailwind-merge",
+        "framer-motion"
+      ],
+      "exports": [
+        "allowedActionOrigins",
+        "assets",
+        "assetsBuildDirectory",
+        "basename",
+        "entry",
+        "future",
+        "isSpaMode",
+        "prerender",
+        "publicPath",
+        "routeDiscovery",
+        "routes",
+        "ssr"
+      ],
+      "entryPoint": "\u0000virtual:react-router/server-build",
+      "bytes": 98561,
+      "inputs": {
+        "react/jsx-runtime": {
+          "bytesInOutput": 0
+        },
+        "react-router": {
+          "bytesInOutput": 0
+        },
+        "isbot": {
+          "bytesInOutput": 0
+        },
+        "react-dom/server": {
+          "bytesInOutput": 0
+        },
+        "react": {
+          "bytesInOutput": 0
+        },
+        "clsx": {
+          "bytesInOutput": 0
+        },
+        "tailwind-merge": {
+          "bytesInOutput": 0
+        },
+        "@radix-ui/react-toast": {
+          "bytesInOutput": 0
+        },
+        "class-variance-authority": {
+          "bytesInOutput": 0
+        },
+        "lucide-react": {
+          "bytesInOutput": 0
+        },
+        "framer-motion": {
+          "bytesInOutput": 0
+        },
+        "app/styles/app.css?url": {
+          "bytesInOutput": 169
+        },
+        "\u0000virtual:react-router/server-manifest": {
+          "bytesInOutput": 9595
+        },
+        "\u0000virtual:react-router/server-build": {
+          "bytesInOutput": 1832
+        },
+        "app/lib/shopify.server.ts": {
+          "bytesInOutput": 2966
+        },
+        "app/lib/products.ts": {
+          "bytesInOutput": 3701
+        },
+        "app/hooks/use-toast.ts": {
+          "bytesInOutput": 1463
+        },
+        "app/lib/session.server.ts": {
+          "bytesInOutput": 679
+        },
+        "app/lib/utils.ts": {
+          "bytesInOutput": 43
+        },
+        "app/components/Footer.tsx": {
+          "bytesInOutput": 2592
+        },
+        "app/context/CartContext.tsx": {
+          "bytesInOutput": 818
+        },
+        "app/components/Navbar.tsx": {
+          "bytesInOutput": 2769
+        },
+        "app/root.tsx": {
+          "bytesInOutput": 1943
+        },
+        "app/components/BackToTop.tsx": {
+          "bytesInOutput": 612
+        },
+        "app/components/AnnouncementBar.tsx": {
+          "bytesInOutput": 1457
+        },
+        "app/routes/collections.tsx": {
+          "bytesInOutput": 2750
+        },
+        "app/routes/products.$handle.tsx": {
+          "bytesInOutput": 9293
+        },
+        "app/routes/returns-shipping.tsx": {
+          "bytesInOutput": 2126
+        },
+        "app/routes/product-video.tsx": {
+          "bytesInOutput": 13210
+        },
+        "app/routes/scent-quiz.tsx": {
+          "bytesInOutput": 6827
+        },
+        "app/routes/cart.tsx": {
+          "bytesInOutput": 6923
+        },
+        "app/routes/_index.tsx": {
+          "bytesInOutput": 2814
+        },
+        "app/components/home/MarqueeBanner.tsx": {
+          "bytesInOutput": 754
+        },
+        "app/components/home/FeaturesSection.tsx": {
+          "bytesInOutput": 2209
+        },
+        "app/components/home/PhilosophySection.tsx": {
+          "bytesInOutput": 2178
+        },
+        "app/routes/privacy-policy.tsx": {
+          "bytesInOutput": 2699
+        },
+        "app/components/home/Hero.tsx": {
+          "bytesInOutput": 2390
+        },
+        "app/routes/terms-of-service.tsx": {
+          "bytesInOutput": 2912
+        },
+        "app/components/home/StorySection.tsx": {
+          "bytesInOutput": 3923
+        },
+        "app/components/home/PriceSection.tsx": {
+          "bytesInOutput": 1762
+        },
+        "app/components/ui/toaster.tsx": {
+          "bytesInOutput": 348
+        },
+        "app/routes/$.tsx": {
+          "bytesInOutput": 896
+        },
+        "app/entry.server.tsx": {
+          "bytesInOutput": 1274
+        },
+        "app/components/home/SubscribeSection.tsx": {
+          "bytesInOutput": 2616
+        },
+        "app/components/ui/toast.tsx": {
+          "bytesInOutput": 2515
+        }
+      }
+    }
+  }
+}
