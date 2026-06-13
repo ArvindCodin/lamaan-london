@@ -6,7 +6,7 @@
   "sideEffects": false,
   "scripts": {
     "dev": "react-router dev",
-    "build": "react-router build",
+    "build": "shopify hydrogen build",
     "start": "node server.mjs",
     "build:worker": "shopify hydrogen build",
     "preview:worker": "shopify hydrogen preview",
